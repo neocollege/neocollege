@@ -2,7 +2,7 @@
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=26&duration=3000&pause=1507&color=ff6e96&center=true&width=480&lines=%3C+Building+and+learning+while+I+explore+%3E;">
 </p>
-🔭 I’m currently exploring data science applications with <a href="https://www.siemens-healthineers.com/">Siemens Healthineers</a><br>👯 I’m looking to collaborate on data science and machine learning projects and hackathons<br>🤝 I’m looking for help with Open source projects<br>🌱 I’m currently learning MLOps and CloudOps<br>💬 Ask me about data science and analytics <br>⚡ Fun fact I am a quick learner and love to work in collaborative teams.
+🔭 Ex Intern at <a href="https://www.siemens-healthineers.com/">Siemens Healthineers</a><br>👯 I’m looking to collaborate on data science and machine learning projects and hackathons<br>🤝 I’m looking for help with Open source projects<br>🌱 I’m currently learning MLOps and CloudOps<br>💬 Ask me about data science and analytics <br>⚡ I am a quick learner and love to work in collaborative teams.
 
 
 ## 🌐 Socials:
