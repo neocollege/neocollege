@@ -1,8 +1,5 @@
 # 💫 About Me:
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=26&duration=3000&pause=1507&color=ff6e96&center=true&width=480&lines=%3C+Building+and+learning+while+I+explore+%3E;">
-</p>
-🔭 Data Engineer at <a href="https://www.siemens-healthineers.com/">Siemens Healthineers</a><br>🏛️ Studying Data Science at <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1">RWTH Aachen University</a><br>👯 I’m looking to collaborate on data science and machine learning projects and hackathons<br>🤝 I’m looking for help with Open source projects<br>🌱 I’m currently learning about Agentic AI and GenAI<br>💬 Ask me about data science and analytics <br>⚡ I am a quick learner and love to work in collaborative teams.
+🔭 Data Analyst at <a href="https://www.siemens-healthineers.com/">Siemens Healthineers</a><br>🏛️ Studying Data Science at <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1">RWTH Aachen University</a><br>👯 I’m looking to collaborate on data science and machine learning projects and hackathons<br>🤝 I’m looking for help with Open source projects<br>🌱 I’m currently learning about Agentic AI and GenAI<br>💬 Ask me about data science and analytics <br>⚡ I am a quick learner and love to work in collaborative teams.
 
 
 ## 🌐 Socials:
