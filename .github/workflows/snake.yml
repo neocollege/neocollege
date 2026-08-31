@@ -1,113 +1,32 @@
-<div align="center">
+name: generate snake
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=data+science+msc+%40+rwth+aachen;data+%26+analytics+%40+siemens+healthineers;knowledge+graphs+%C2%B7+graphrag+%C2%B7+llm+agents" alt="prathamesh nayak" />
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
-<br/>
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: generate snake.svg
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prathamesh-nayak/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prath.nayak95@gmail.com)
-![Location](https://img.shields.io/badge/Aachen,_DE-2b3137?style=for-the-badge&logo=googlemaps&logoColor=white)
-
-</div>
-
----
-
-I work at the seam between enterprise data platforms and applied AI — SAP data into Snowflake and Power BI by day, knowledge graphs and LLM agents the rest of the time.
-
-```
-now      →  snowflake pipelines + power bi reporting @ siemens healthineers
-next     →  master's thesis on graphrag / knowledge graphs (ws 26/27)
-learning →  agentic ai, retrieval systems, german (langsam)
-ask me   →  sap data models, dax, semantic web
-```
-
----
-
-<details open>
-<summary><b>🛠️ what i actually use</b></summary>
-
-<br/>
-
-**data & analytics**
-
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat-square&logo=microsoft&logoColor=black)
-![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white)
-![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white)
-
-**ml & ai**
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
-
-**semantic web**
-
-![RDF](https://img.shields.io/badge/RDF-0C479D?style=flat-square&logo=w3c&logoColor=white)
-![SPARQL](https://img.shields.io/badge/SPARQL-0C479D?style=flat-square&logo=w3c&logoColor=white)
-![OWL](https://img.shields.io/badge/OWL-0C479D?style=flat-square&logo=w3c&logoColor=white)
-
-**tooling**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
-
-</details>
-
-<details>
-<summary><b>🎓 where i've been</b></summary>
-
-<br/>
-
-| | | |
-|---|---|---|
-| **MSc Data Science** | RWTH Aachen University | 2025 – 2027 |
-| **Working Student, Data & Analytics** | Siemens Healthineers, Aachen | 2025 – present |
-| **Data Analytics & Engineering Intern** | Siemens Healthineers, Erlangen | 2023 |
-| **BTech Information Technology** *(minor: Data Science)* | DJ Sanghvi, Mumbai — 8.92/10 | 2020 – 2024 |
-
-</details>
-
-<details>
-<summary><b>🔬 what i'm poking at</b></summary>
-
-<br/>
-
-- **GraphRAG** — retrieval that walks a graph instead of cosine-similarity vibes
-- **Knowledge graphs in biomedicine** — currently writing a review paper on this
-- **Agentic AI** — tool-using LLMs over structured enterprise data
-- **RAG systems** — built a FAISS + GPT-4 exam assistant as my bachelor's project
-
-</details>
-
----
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=neocollege&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8b949e&icon_color=58A6FF" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=neocollege&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8b949e" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=neocollege&hide_border=true&background=00000000&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8b949e&dates=8b949e&sideNums=8b949e&currStreakNum=58A6FF" height="165" />
-
-</div>
-
----
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/neocollege/neocollege/output/snake.svg" alt="contribution snake" />
-</div>
-
----
-
-<div align="center">
-<sub>cooking too much indian food · badminton · film photography · learning guitar badly</sub>
-</div>
+      - name: push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
